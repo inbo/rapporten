@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 *.Rproj
+*.tex
+_bookdown_files
