@@ -1,0 +1,73 @@
+---
+output: html_document
+---
+
+```{r include = FALSE}
+library(knitr)
+library(dplyr)
+library(yaml)
+library(tidyr)
+opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+extract <- function(x){
+  yaml <- readLines(x)
+  positions <- grep("---", yaml)
+  if (length(positions) == 0) {
+    return(NULL)
+  }
+  yaml <- yaml[seq(positions[1] + 1, positions[2] - 1)] %>%
+    paste(collapse = "\n") %>%
+    yaml.load()
+  data_frame(
+    Titel = yaml$title,
+    "Auteur(s)" = yaml$author
+  )
+}
+```
+
+
+```{r results = "asis"}
+rapporten <- data_frame(
+  source = list.files(
+    pattern = "\\.Rmd$",
+    recursive = TRUE,
+    full.names = TRUE
+  )
+) %>%
+  filter(source != "./index.Rmd") %>%
+  rowwise() %>%
+  mutate(yaml = list(extract(source))) %>%
+  filter(!is.null(yaml)) %>%
+  unnest(yaml, .drop = FALSE) %>%
+  mutate(
+    Rapportnummer = gsub("^\\./", "", source) %>%
+      gsub(pattern = "(.*)/.*\\.Rmd", replacement = "\\1")
+  ) %>%
+  rowwise() %>%
+  mutate(
+    HTML = paste0("../docs/", Rapportnummer) %>%
+      list.files(pattern = "^index\\.html$", full.names = TRUE) %>%
+      gsub(pattern = "\\.\\./docs/", replacement = ""),
+    pdf = paste0("../docs/", Rapportnummer) %>%
+      list.files(pattern = "\\.pdf$", full.names = TRUE) %>%
+      gsub(pattern = "\\.\\./docs/", replacement = ""),
+    epub = paste0("../docs/", Rapportnummer) %>%
+      list.files(pattern = "\\.epub$", full.names = TRUE) %>%
+      gsub(pattern = "\\.\\./docs/", replacement = "")
+  ) %>%
+  ungroup() %>%
+  mutate(Rapportnummer = gsub("_", ".", Rapportnummer))
+sprintf(
+  "## %s: %s\n\nAuteur(s): %s\n\nOpen: <a href='%s'>HTML</a>\n\nDownload: <a href='%s'>pdf</a> - <a href='%s'>epub</a>", 
+  rapporten$Rapportnummer,
+  rapporten$Titel,
+  rapporten$`Auteur(s)`,
+  rapporten$HTML,
+  rapporten$pdf,
+  rapporten$epub
+) %>%
+  cat()
+```
+
