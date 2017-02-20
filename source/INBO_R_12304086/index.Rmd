@@ -1,0 +1,156 @@
+---
+title: "Hoe bij het veldwerk omgaan met afwijkingen op een monitoringsprotocol  van een soortenmeetnet Natura 2000?"
+author: "Thierry Onkelinx, Geert De Knijf, Dirk Maes, Luc De Bruyn, Toon Westra, Marc Pollet \\& Paul Quataert"
+knit: "bookdown::render_book"
+output:
+  bookdown::pdf_book:
+    keep_tex: yes
+    lot: FALSE
+    base_format: INBOmd::inbo_rapport_2015
+    reportnr: INBO.R.12304086
+  bookdown::epub_book: default
+  bookdown::gitbook:
+    lib_dir: "book_assets"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  cache = TRUE,
+  autodep = TRUE,
+  fig.height = 2.8,
+  fig.width = 5.9,
+  message = FALSE
+)
+library(diagram)
+```
+
+# Inleiding
+
+Om haar beleid te ondersteunen, heeft de Vlaamse overheid nood aan informatie over de verspreiding en trend van soorten. Om hier op een onderbouwde manier te kunnen over rapporteren, is een wetenschappelijk en statistisch onderbouwd monitoringnetwerk nodig. Het INBO stelde daarom voor verschillende soorten en soortgroepen monitoringsprotocollen op. 
+
+De bedoeling is dat de veldwerker op het terrein het monitoringsprotocol zo accuraat mogelijk volgt. Hoe meer het veldwerk volgens het boekje verloopt, hoe beter vergelijkbaar de metingen en hoe beter onderbouwd de resultaten zullen zijn.
+
+Toch kunnen en zullen er in de praktijk situaties opduiken die de uitvoering van het protocol bemoeilijken. Een pragmatische aanpak die de betrouwbaarheid van de meetnetgegevens niet in het gedrang brengt, is dan aangewezen. Dit document wil daar een houvast bij bieden. Het somt de meest voorkomende problemen bij een veldonderzoek op en stelt uniforme oplossingen voor. 
+
+Waar zinvol en mogelijk geeft het document ook aan hoe deze problemen te voorkomen. De algemene stelregel is in elk geval dat een degelijke voorbereiding en doordachte afspraken onontbeerlijk zijn voor het goede verloop van de monitoring.
+
+Naarmate het project vordert, zullen wellicht nieuwe knelpunten opduiken. Om de kwaliteit van de monitoring te verbeteren, is het zinvol om hiervan een logboek bij te houden en zo kennis op te bouwen. Het INBO zal bij de jaarlijkse kwaliteitsrapportage deze problemen bestuderen en verbeteringen suggereren in overleg met de opdrachthouder.
+
+Voor sommige soorten en naargelang de situatie zal het soms beter zijn om een knelpunt anders aan te pakken dan we hier voorstellen. Ook dat wordt best gedocumenteerd voor een eventuele latere update van de monitoringsprotocollen.
+
+In geval van twijfel of wanneer het probleem noch in dit document, noch in het specifieke monitoringsprotocol beschreven is, raden we aan de veldwerkcoördinator te contacteren. Die koppelt indien nodig terug met het INBO.
+
+Knelpunten op het terrein betekenen vaak extra werk. Bij systematische en/of structurele problemen zal het INBO daarom in overleg met de veldwerkcoödinator naar de beste oplossing zoeken en de haalbaarheid ervan afwegen.
+
+## Definities
+
+INBO
+  ~ Verwijst naar de medewerkers van het Instituut voor Natuur- en Bosonderzoek, dat verantwoordelijk is voor het opvolgen van de Natura 2000 monitoring
+
+opdrachthouder
+  ~ De organisatie die het praktische veldwerk van een specifiek meetnet laat uitvoeren in opdracht van het INBO.
+  
+
+veldwerkcoördinator
+  ~ De persoon die het inzetten van de veldwerkers coördineert. Hij wordt aangesteld door de opdrachthouder van het meetnet in kwestie.
+  
+veldwerker
+  ~ De persoon die op het terrein de nodige metingen uitvoert aan de hand van het meetnetprotocol.
+
+meetnetten.be
+  ~ De website waar de veldwerker zijn waarnemingen invoert. Sommige meetnetten kunnen de waarnemingen op een andere manier centraliseren.
+  
+locatie
+  ~ De fysieke plaats waar het meetnetprotocol uitgevoerd wordt. De exacte definitie wordt bepaald in het meetnetprotocol. Voorbeelden zijn UTM 1x1 km hokken, een winterverblijf van vleermuizen ...
+  
+deellocatie
+  ~ Bij sommige meetnetten wordt de locatie in afzonderlijke eenheden opgesplitst en opgevolgd. Voorbeelden: een punt in een UTM  1x1 km hok, een ruimte in een winterverblijf van vleermuizen.
+
+```{r schema, fig.width = 6, fig.height = 7, fig.cap = "Beslissingsschema voor de aanpak van problemen tijdens de monitoring."}
+par(cex = 0.6, mar = rep(0, 4))
+openplotmat()
+element.pos <- diagram::coordinates(rep(3, 8))
+from.to <- rbind(
+  c(1, 4), 
+  c(4, 5), c(5, 6), c(5, 9), c(4, 10), 
+  c(10, 11), c(11, 12), c(11, 14), c(14, 15), c(14, 18), c(10, 19),
+  c(19, 20), c(20, 21), c(20, 24) # , c(19, 23)
+)
+arrow.pos <- t(apply(from.to, 1, function(x){
+  straightarrow(from = element.pos[x[1], ], to = element.pos[x[2], ])
+}))
+
+textellipse(element.pos[1, ], radx = 0.15, rady = 0.05, 
+   lab = "Problemen met ...", cex = 1.6)
+
+# Niveau 1
+textdiamond(element.pos[4, ], radx = 0.06, rady = 0.06, 
+   lab = "Materiaal?")
+
+##
+textdiamond(element.pos[5, ], radx = 0.06, rady = 0.06, 
+   lab = "Wanneer")
+text(arrow.pos[2, 1], arrow.pos[2, 2] + 0.03, "Ja")
+
+###
+textellipse(element.pos[6, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 2.1")
+text(arrow.pos[3, 1] - 0.02, arrow.pos[3, 2] + 0.03, "Voor\nveldbezoek")
+
+###
+textellipse(element.pos[9, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 2.2")
+text(arrow.pos[4, 1] - 0.08, arrow.pos[4, 2], "Tijdens\nveldbezoek")
+
+# Niveau 1
+textdiamond(element.pos[10, ], radx = 0.06, rady = 0.06, 
+   lab = "Weer?")
+
+## 
+textdiamond(element.pos[11, ], radx = 0.06, rady = 0.06, 
+   lab = "Slechter\nin de loop van\nveldbezoek")
+text(arrow.pos[6, 1], arrow.pos[6, 2] + 0.03, "Ja")
+
+###
+textellipse(element.pos[12, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 3.1")
+text(arrow.pos[7, 1] - 0.02, arrow.pos[7, 2] + 0.03, "Ja")
+
+##
+textdiamond(element.pos[14, ], radx = 0.06, rady = 0.06, 
+   lab = "Slecht\nbij aanvang")
+text(arrow.pos[8, 1] - 0.05, arrow.pos[8, 2] - 0.01, "Nee")
+
+###
+textellipse(element.pos[15, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 3.2")
+text(arrow.pos[9, 1] - 0.05, arrow.pos[9, 2] + 0.03, "Eenmalig")
+
+###
+textellipse(element.pos[18, ] , radx = 0.15, rady = 0.05, 
+   lab = "Zie § 3.3")
+text(arrow.pos[10, 1] - 0.05, arrow.pos[10, 2] - 0.02, 
+   "Permanent\nzodat het veldseizoen\nin het gedrang komt")
+
+# Niveau 1
+textdiamond(element.pos[19, ], radx = 0.06, rady = 0.06, 
+   lab = "Locatie?")
+
+##
+textdiamond(element.pos[20, ], radx = 0.06, rady = 0.06, 
+   lab = "Toegankelijk?")
+text(arrow.pos[12, 1], arrow.pos[12, 2] + 0.03, "Ja")
+
+### 
+textellipse(element.pos[21, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 4.1")
+text(arrow.pos[13, 1] - 0.02, arrow.pos[13, 2] + 0.03, 
+   "Ja, maar\nniet (meer) geschikt")
+
+###
+textellipse(element.pos[24, ], radx = 0.15, rady = 0.05, 
+   lab = "Zie § 4.2")
+text(arrow.pos[14, 1] - 0.05, arrow.pos[14, 2] - 0.03, 
+   "Nee, maar\ntoegang geweigerd \nof veiligheidsrisico's")
+```

@@ -1,0 +1,23 @@
+# Materiaalpech
+
+Om materiaalpech te voorkomen, moeten de veldwerkcoördinator en de veldwerkers goede afspraken maken over de distributie, de levering, het onderhoud en de herstelling van het materiaal. Verloren of defect materiaal wordt best zo snel mogelijk vervangen of hersteld, zodat volgende veldbezoeken zo weinig mogelijk hinder ondervinden. De veldwerker signaleert in elk geval tijdig problemen aan de veldwerkcoördinator.
+
+We gebruiken als voorbeeld een amfibieënmeetnet waarbij we de amfibieën met behulp van fuiken vangen.
+
+## Voor het veldbezoek
+
+De veldwerkcoördinator houdt steeds de voorraad reserveonderdelen van de apparatuur en het verbruiksmateriaal (extra formulieren, schrijfmateriaal, batterijen ...) in het oog. 
+
+De veldwerker gaat aan de hand van een **checklist** na of hij al het noodzakelijke materiaal voor het specifiek veldonderzoek ter beschikking heeft en of het materiaal correct werkt.
+
+## Tijdens het veldbezoek
+
+Een toestel kan defect raken waardoor het niet meer functioneert of onvoldoende betrouwbare metingen uitvoert. Wanneer relevant heeft de veldwerker daarom het nodige reservemateriaal mee om ter plaatse herstellingen uit te kunnen voeren.
+
+Wanneer een herstelling ter plaatse niet mogelijk is, wordt het veldbezoek voortijdig afgebroken en op een later tijdstip hernomen.
+
+In geval van diefstal of een onherstelbaar defect van het materiaal moet de veldwerker dat zo snel mogelijke signaleren aan de veldwerkcoördinator.
+
+Wanneer door materiaalpech slechts **een deel van de meting** faalt, bijvoorbeeld wanneer bij amfibieënonderzoek een van de fuiken verdwenen is, dan noteert de veldwerker het gefaalde deel van de meting als 'ontbrekend', met duidelijke omschrijving van de reden van faling. In meetnetten.be is hiervoor een invoerveld voorzien. In principe wordt het volledige veldbezoek dan later opnieuw uitgevoerd. Het monitoringsprotocol kan hierop afwijkingen voorzien, bijvoorbeeld in het geval dat de materiaalpech slechts een beperkt deel van het veldbezoek betreft.
+
+Wanneer door diefstal of defect materiaal meetwaarden ontbreken, mogen die **zeker niet** als nulwaarnemingen geregistreerd worden. Er is immers een wezenlijk onderscheid tussen "we hebben een fuik volgens het protocol geplaatst en er zat geen enkel dier in ('nulwaarneming')" en "omdat de fuik verdwenen is, was het onmogelijk om een dier te vinden ('ontbrekend')".

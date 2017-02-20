@@ -1,0 +1,56 @@
+# Ongunstige weersomstandigheden
+
+Indien relevant, beschrijft elk monitoringsprotocol per soort welke weersomstandigheden optimaal zijn voor het veldbezoek en wat eventueel nog aanvaardbaar is.
+
+De algemene regel is dat bij ongunstige weersomstandigheden de veldwerker niet aan het terreinbezoek begint. Omdat de weersomstandigheden in de loop van de dag kunnen wijzigen, kan je echter niet altijd op voorhand goed inschatten of een veldbezoek mogelijk is.
+
+Zeker bij aanhoudend slecht weer is een te strenge interpretatie van de optimale weersomstandigheden af te raden, want dan dreigen we buiten het waarnemingsvenster te vallen en een heel veldseizoen te verliezen.
+
+Hieronder geven we voor verschillende situaties enkele vuistregels over hoe hiermee om te gaan. Merk op dat we hier met een veldbezoek het onderzoek op één locatie op één tijdstip bedoelen. Er zijn situaties mogelijk dat op één dag meerdere locaties onderzocht worden en dus meerdere veldbezoeken gepland zijn. 
+
+## De weersomstandigheden worden te slecht tijdens een veldbezoek
+
+Een eerste situatie is deze waarbij het weer aanvankelijk gunstig was of toch aanvaardbaar om te starten, maar in de loop van het veldbezoek ongunstig wordt.
+
+### Het effect op de soort is van korte duur
+
+_Voorbeeld_
+
+- De activiteit van vlinders en libellen is temperatuursafhankelijk. Een tijdelijke toename van de bewolking kan tot een temperatuursdaling leiden met een verminderde activiteit tot gevolg. Anderzijds zal de temperatuur snel terug opklimmen van zodra de bewolking verdwijnt. Dan is de activiteit van vlinders of libellen opnieuw voldoende om het meetnetprotocol te volgen.
+
+Hoe aanpakken?
+
+- Het veldbezoek wordt tijdelijk onderbroken. Wanneer de weersomstandigheden later terug gunstig zijn, kan het veldbezoek verdergezet worden. Helemaal herbeginnen is niet nodig.
+- Noteer de tijdstippen waarop het veldbezoek onderbroken en verdergezet werd. Indien de locatie opgedeeld is in deellocaties, noteer dan ook de deellocatie waar het veldbezoek onderbroken werd.
+
+### Het effect op de soort is van langere duur
+
+_Voorbeeld_
+
+- Het begint plots te regenen waardoor de temperatuur behoorlijk zakt. Wanneer de zon opnieuw doorbreekt, duurt het nu veel langer voor de temperatuur terug op een voldoende niveau is. Bijgevolg kunnen we verwachten dat de activiteit van vlinders of libellen voor langere tijd lager blijft.
+
+_Hoe aanpakken?_
+
+- De veldwerker onderbreekt het veldbezoek en voert het op een andere dag volledig opnieuw uit.
+
+## De weersomstandigheden zijn te slecht bij de start van een veldbezoek
+
+Wanneer de weersomstandigheden ongunstig zijn volgens de vereisten beschreven in het monitoringsprotocol, is het in principe niet zinvol om een veldbezoek te starten. Naarmate het veldseizoen vordert, is een al te strikte toepassing echter af te raden omdat we op die manier te veel kansen om de metingen te doen, laten voorbij gaan.
+
+_Hoe aanpakken?_
+
+- Als je nog niet vertrokken bent, stel je het veldbezoek uit naar een later tijdstip, liefst zo dicht mogelijk bij de aanvankelijk voorziene datum. Op die manier bouw je geen achterstallig veldwerk op.
+- Ben je toch al ter plaatsen en het weer is niet extreem slecht, kan het zinvol zijn (maar het is geen verplichting) om toch de waarnemingen uit te voeren. Het blijft wel aanbevolen om een nieuw veldbezoek uit te voeren onder gunstige weersomstandigheden. Wanneer je niet in de mogelijkheid bent om een nieuw veldbezoek uit te voeren, kan je alsnog besluiten de best beschikbare meting van dat veldbezoek te weerhouden en in te voeren in meetnetten.be. Je moet de omstandigheden van de waarneming dan wel duidelijk vermelden.
+
+## De weersomstandigheden blijven slecht gedurende de voorziene periode van veldwerk
+
+Weersomstandigheden zijn moeilijk te voorspellen voor een langere periode. Wacht daarom niet op nog betere weersomstandigheden wanneer de weersomstandigheden tijdens het voorziene veldbezoek voldoende gunstig zijn. 
+
+_Hoe aanpakken?_
+
+- Hoe strikter de eisen i.v.m. weersomstandigheden, hoe belangrijker het is om het veldbezoek voldoende vroeg in de relevante periode te plannen. Als het weer in de beginperiode dan te slecht is, heb je nog ruimte om het uit te stellen. Als je dadelijk mikt naar de eindperiode, wordt het moeilijk of zelfs onmogelijk om het veldwerk naar een later tijdstip te verplaatsen.
+
+- Wanneer het veldseizoen heel kort is (bijvoorbeeld 4 weken) en de veldwerkwerkcoördinator halfweg vaststelt dat er nog geen veldbezoeken konden doorgaan wegens het slechte weer en de voorspellingen voor de rest van de periode evenmin veel goeds beloven, kan het INBO beslissen om:
+    a. De periode (uitzonderlijk) te verlengen of te verschuiven naar een latere periode. Dat kan het geval zijn na bijvoorbeeld een strenge winter of lang aanhoudende periode winterweer.
+    b. Het veldwerk te verschuiven naar een volgend jaar. Dat kan dan in uitzonderlijke situaties gepaard gaan met een vermindering van het aantal te bezoeken meetplaatsen.
+    c. Het veldwerk dat jaar niet te laten doorgaan.

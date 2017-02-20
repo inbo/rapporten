@@ -1,0 +1,103 @@
+# Locatiegerelateerde problemen
+
+Tijdens het monitoringsonderzoek kan je op problemen stuiten die samenhangen met de locatie. Het kan dan gaan om de geschiktheid van de locatie voor de monitoring of om de toegankelijkheid ervan.
+
+## De locatie is niet meer geschikt
+
+### Een locatie is met zekerheid op middellange termijn niet (meer) geschikt
+
+_Voorbeelden_
+
+- Een winterverblijf van vleermuizen werd afgebroken.
+- Een winterverblijf van vleermuizen werd afgesloten of verwarmd waardoor het zeer onwaarschijnlijk is dat er op middellange termijn vleermuizen overwinteren.
+- Een amfibieënpoel is verdwenen.
+
+_Hoe aanpakken?_
+
+- De veldwerker koppelt onmiddellijk terug met de veldwerkcoördinator, die contact opneemt met het INBO.
+- Het INBO verwijdert de locatie uit het steekproefkader en selecteert een andere locatie.
+
+### De locatie lijkt geschikt, maar de soort wordt (herhaaldelijk) niet aangetroffen
+
+_Mogelijk oorzaken_
+
+- De soort is lokaal uitgestorven.
+- De soort is tijdelijk afwezig.
+- De soort is moeilijk waarneembaar.
+
+_Hoe aanpakken?_
+
+- De veldwerker registreert de **nulwaarneming**. Zoals hoger opgemerkt is een goed onderscheid noodzakelijk met ontbrekende waarnemingen.
+- Pas **na** een volledige monitoringscyclus (5 jaar) oordeelt het INBO in overleg met de partners of de locatie al dan niet in het steekproefkader behouden blijft. Binnen een monitoringscyclus blijft het punt dus behouden, want de oorzaak kan een tijdelijk afwezigheid of een moeilijke waarneembaarheid van de soort zijn.
+- In dat laatste geval, en zeker als er aanwijzingen zijn dat de meetmethode ongeschikt is, kan het zinvol zijn om de methode bij te sturen. In een volgende cyclus kan dan een meer geschikte methode gebruikt worden. In dat geval overlegt het INBO met de opdrachthouder over wat haalbaar is en wat niet.
+- Het finale oordeel over het weerhouden van de locatie zal afhangen van het areaal en de detectiekans van een soort en andere beschikbare informatie. Het is niet mogelijk om hiervoor algemene regels op te stellen. De regels zijn soortafhankelijk.
+- Bij het beoordelen van de geschiktheid van een locatie kunnen losse waarnemingen in de omgeving een belangrijke rol spelen. Losse waarnemingen in de buurt zonder waarnemingen op de locatie sluiten immers een lokaal uitsterven of tijdelijke afwezigheid uit. We moedigen de veldwerkers daarom aan waarnemingen van de soort buiten het monitoringsprotocol als losse waarnemingen door te geven. Bijvoorbeeld een salamander die wel werd waargenomen, maar die niet in de fuiken zat. Of een vlinder die niet werd waargenomen op het te onderzoeken transect, maar wel op weg ernaartoe. 
+
+### Het geschikte leefgebied is verplaatst
+
+Door omstandigheden kan het leefgebied van een soort binnen een gebied verschuiven. De gekozen onderzoekslocatie kan daardoor ongeschikt worden voor het monitoren van die soort.
+
+_Voorbeelden_
+
+- Door wijziging van de waterstand of door de dynamiek van een duin is de oeverzone van een ven verschoven. Het eerder gekozen traject kan daardoor ongeschikt worden om libellen te monitoren.
+- Een deel van het terrein is verbost of gekapt zodat de bosrand verschoven is en de oorspronkelijk gekozen monitoringslocatie voor bruine eikenpage niet meer geschikt is.
+
+_Hoe aanpakken?_
+
+- De algemene regel is dat we zoveel mogelijk een vervangende locatie in de buurt zoeken. Is een open plek in het bos dichtgegroeid, dan zoeken we een open plek in de buurt. In elk monitoringsprotocol worden hiervoor specifieke regels voorzien.
+- Wanneer een deel van een monitoringstraject verdwijnt, is het toegelaten om nieuwe stukken te selecteren. Als bijvoorbeeld de bedding van een waterloop verlegd wordt, kan de nieuwe loop gevolgd worden.
+- De aanpak van dergelijke situatie is sterk meetnetafhankelijk en vergt telkens een individuele beoordeling. Voor meer informatie hierover verwijzen we naar het betrokken monitoringsprotocol. In geval van twijfel raadpleegt de veldwerker de veldwerkcoördinator. Deze laatste kan op zijn beurt te rade gaan bij het INBO.
+- Voor een correcte interpretatie van de monitoringsresultaten moeten de aanpassingen zo goed mogelijk gedocumenteerd worden.
+
+## De locatie is niet toegankelijk
+
+### De eigenaar of beheerder weigert toegang aan de veldwerker
+
+In eerste instantie probeert de veldwerker de eigenaar of beheerder alsnog te overtuigen om de toelating te geven. Indien dit niet succesvol is, brengt de veldwerker de veldwerkcoördinator onmiddellijk op te hoogte. De veldwerkcoördinator en het INBO overleggen over de meeste geschikte aanpak voor elk individueel geval.
+
+### De locatie is tijdelijk ontoegankelijk
+
+_Voorbeelden_
+
+- Het gebied is overstroomd.
+- Een bos- of heidegebied is afgesloten wegens brandgevaar.
+- Er zijn legeroefeningen gepland.
+
+_Hoe aanpakken?_
+
+- Noteer volgende gegevens:
+    - De datum van (de poging tot) het terreinbezoek.
+    - De reden waarom het niet gelukt is.
+    - Indien mogelijk, een schatting wanneer de locatie terug toegankelijk wordt.
+- Breng later een nieuw bezoek wanneer de situatie dat toelaat.
+- Als de situatie niet hersteld is voor het einde van het veldseizoen, kan het INBO beslissen om:
+    a. het bezoek te verdagen naar een volgend jaar of
+    b. het veldwerk te schrappen.
+
+Bij sommige meetnetten worden locaties slechts om de paar jaar onderzocht, bijvoorbeeld elk jaar een derde van de locaties. In dat geval is het mogelijk om bepaalde locaties te wisselen van jaar. Op die manier wordt de meetlast over de jaren zo goed mogelijk gespreid gehouden.
+
+### De locatie heeft een permanent en hoog veiligheidsrisico
+
+Indien gekend, neemt het INBO locaties met een hoog veiligheidsrisico in principe niet op in het steekproefkader. Om de risico's bij onverwachte situaties te beperken, worden veldwerkers goed opgeleid en gebriefd over eventuele gevaren. De opdrachthouder is verantwoordelijk voor het verstrekken van deze opleiding. In het geval dat toch gemonitord wordt in een zone met een veiligheidsrisico, moet de nodige veiligheidsuitrusting voorzien worden.
+
+Hieronder bespreken we situaties waarbij de veldwerker voor een onverwachte situatie komt te staan.
+
+_Voorbeelden_
+
+- De locatie is te gevaarlijk om te betreden.
+    - Een monitoringslocatie bevindt zich in een militaire domein waar onontplofte explosieven aanwezig kunnen zijn.
+    - Een te bezoeken winterverblijfplaats van vleermuizen bevindt zich in een gebouw of grot met instortingsgevaar.
+
+_Hoe aanpakken?_
+
+- Mocht de veldwerker in een gevaarlijke situatie terechtkomen, dan moet die zich zo snel mogelijk in veiligheid brengen door de locatie te verlaten.
+- De veldwerker koppelt onmiddellijk terug met de veldwerkcoördinator, die op zijn beurt contact opneemt met het INBO.
+- Locaties waarbij het niet mogelijk is om het veiligheidsrisico te beperken, komen niet meer in aanmerking. In dat geval selecteer het INBO een nieuwe locatie.
+
+### De problemen doen zich slechts op een aantal deellocaties voor
+
+_Hoe aanpakken?_
+
+- Doe het veldwerk op alle deellocaties waar er zich geen probleem stelt.
+- Noteer duidelijk welke deellocaties onderzocht werden en welke niet, en de reden daarvoor.
+- De veldwerker informeert de veldwerkcoördinator. De urgentie hiervan is afhankelijk van het aandeel ontoegankelijke deellocaties. Concrete richtlijnen hiervoor zijn meetnetafhankelijk en moeten beschreven worden in het meetnetprotocol.
