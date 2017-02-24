@@ -7,7 +7,7 @@ output:
     keep_tex: yes
     lot: FALSE
     base_format: INBOmd::inbo_rapport_2015
-    reportnr: INBO.R.12304086
+    reportnr: doi.org/10.21436/inbor.12304086
   bookdown::epub_book: default
   bookdown::gitbook:
     lib_dir: "book_assets"
